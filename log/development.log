@@ -1,0 +1,2536 @@
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 05:10:41) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (180.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 295ms (View: 99, DB: 180) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-06-13 05:11:44) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+
+ActionController::RoutingError (No route matches "/getStudentApplication.json" with {:method=>:get}):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 05:11:52) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;35;1mStudentApplication Load (2.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 46ms (View: 29, DB: 2) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 05:12:55) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (3.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 43ms (View: 27, DB: 3) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve to json (for 127.0.0.1 at 2013-06-13 05:13:04) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;35;1mStudentApplication Load (2.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 46ms (View: 31, DB: 2) | 200 OK [http://localhost/getStudentApplication.json?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve to json (for 127.0.0.1 at 2013-06-13 05:13:11) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (2.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 45ms (View: 29, DB: 2) | 200 OK [http://localhost/getStudentApplication.json?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve to json (for 127.0.0.1 at 2013-06-13 05:20:52) [GET]
+  Parameters: {"applicationId"=>"201334326"}
+  [4;35;1mStudentApplication Load (3.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '201334326') [0m
+Completed in 19ms (View: 1, DB: 3) | 200 OK [http://localhost/getStudentApplication.json?applicationId=201334326]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 06:14:57) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (3.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 45ms (View: 27, DB: 3) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 06:15:42) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;35;1mStudentApplication Load (2.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+
+NoMethodError (undefined method `student_application' for #<Array:0x8fbea68>):
+  app/controllers/student_applications_controller.rb:7:in `retrieve'
+  app/controllers/student_applications_controller.rb:6:in `retrieve'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (147.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 07:17:46) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (3.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+
+NoMethodError (undefined method `student_application' for #<Array:0x933aa10>):
+  app/controllers/student_applications_controller.rb:7:in `retrieve'
+  app/controllers/student_applications_controller.rb:6:in `retrieve'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (74.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 07:18:16) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;35;1mStudentApplication Load (3.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 40ms (View: 24, DB: 3) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve to json (for 127.0.0.1 at 2013-06-13 07:38:19) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (1.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 44ms (View: 28, DB: 1) | 200 OK [http://localhost/getStudentApplication.json?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve to json (for 127.0.0.1 at 2013-06-13 07:38:23) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;35;1mStudentApplication Load (2.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 43ms (View: 28, DB: 2) | 200 OK [http://localhost/getStudentApplication.json?applicationId=20133432626]
+
+
+Processing ApplicationController#retrieve to json (for 127.0.0.1 at 2013-06-13 07:43:26) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+
+NoMethodError (undefined method `respond_to' for StudentApplicationsController:Class):
+  app/controllers/student_applications_controller.rb:3
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (151.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentApplicationsController#retrieve to json (for 127.0.0.1 at 2013-06-13 07:44:38) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (3.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 44ms (View: 28, DB: 3) | 200 OK [http://localhost/getStudentApplication.json?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 07:44:55) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;35;1mStudentApplication Load (2.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 41ms (View: 26, DB: 2) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 07:45:00) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (2.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 44ms (View: 28, DB: 2) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 07:56:39) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;35;1mStudentApplication Load (2.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 44ms (View: 28, DB: 2) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 07:56:42) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (2.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 44ms (View: 28, DB: 2) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 07:56:43) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;35;1mStudentApplication Load (1.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 44ms (View: 28, DB: 1) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 07:56:44) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (1.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 44ms (View: 28, DB: 1) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-13 07:57:16) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (2.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 63ms (View: 48, DB: 2) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing ApplicationController#retrieve (for 127.0.0.1 at 2013-06-14 00:57:10) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+
+SyntaxError (c:/Users/Silver/Git/api_B-Unique/app/controllers/student_applications_controller.rb:17: syntax error, unexpected tSYMBEG, expecting kDO or '{' or '('
+...son { render :json => {errors:{status:110, message:"Required...
+                              ^
+c:/Users/Silver/Git/api_B-Unique/app/controllers/student_applications_controller.rb:17: syntax error, unexpected '}', expecting kEND
+...ired parameter not provided"}}, :status => :unprocessable_en...
+                              ^
+c:/Users/Silver/Git/api_B-Unique/app/controllers/student_applications_controller.rb:37: syntax error, unexpected tSYMBEG, expecting kDO or '{' or '('
+...son { render :json => {errors:{status:110, message:"Required...
+                              ^
+c:/Users/Silver/Git/api_B-Unique/app/controllers/student_applications_controller.rb:37: syntax error, unexpected '}', expecting kEND
+...ired parameter not provided"}}, :status => :unprocessable_en...
+                              ^
+c:/Users/Silver/Git/api_B-Unique/app/controllers/student_applications_controller.rb:50: syntax error, unexpected $end, expecting kEND):
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.0ms)
+Rendered rescues/_request_and_response (27.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-14 00:59:26) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;35;1mStudentApplication Load (34.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 92ms (View: 47, DB: 34) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+Error occurred while parsing request parameters.
+Contents:
+
+student_application:
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+/!\ FAILSAFE /!\  Fri Jun 14 01:01:42 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+student_application:
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+/!\ FAILSAFE /!\  Fri Jun 14 01:04:49 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+"student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+/!\ FAILSAFE /!\  Fri Jun 14 01:06:57 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 01:11:29 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 01:13:44 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 01:14:22 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 01:22:11 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 01:25:49 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"4",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 01:32:11 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"4",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 02:11:41 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"4",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 02:30:09 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+   "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"6",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 02:30:46 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-06-14 02:35:28) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (3.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 119ms (View: 103, DB: 3) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+Error occurred while parsing request parameters.
+Contents:
+
+{
+  "student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+}
+/!\ FAILSAFE /!\  Fri Jun 14 02:37:16 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+/!\ FAILSAFE /!\  Fri Jun 14 02:44:37 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+"student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}
+/!\ FAILSAFE /!\  Fri Jun 14 02:45:44 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+[{"student_application":
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}}]
+/!\ FAILSAFE /!\  Fri Jun 14 02:48:11 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{"student_application":
+[
+{
+	"admission_session":"2013 - October Admission",
+	"first_name":"Slytest",
+	"last_name":"TestUser",
+	"email":"Slytest@mailinator.com",
+	"marital_status":"single",
+	"dob":"1992/3/12",
+	"gender":"male",
+	"mobile_phone":"3034504565",
+	"education":"A High School Graduate",
+	"address":"808 Edinburgh street",
+	"city":"Edinburgh",
+	"state":"5",
+	"zipcode":"23508",
+	"country":"1",
+	"ssn":"4587852221",
+	"applying_for":"Master Barber",
+	"student_type":"Full_Time_40hr",
+	"period":"DAY",
+	"emergency_name":"John Test",
+	"emergency_mobile_number":"2584851212",
+	"emergency_relationship":"Father",
+	"emergency_address":"808 Edinburgh street",
+	"emergency_city":"Edinburgh",
+	"emergency_state":"5",
+	"emergency_zipcode":"23508",
+	"emergency_country":"1"
+
+}]}
+/!\ FAILSAFE /!\  Fri Jun 14 03:31:50 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-06-14 07:56:50) [POST]
+  Parameters: {"student_application"=>[{"last_name"=>"TestUser", "emergency_zipcode"=>"23508", "zipcode"=>"23508", "emergency_country"=>"1", "emergency_state"=>"5", "emergency_name"=>"John Test", "gender"=>"male", "student_type"=>"Full_Time_40hr", "dob"=>"1992/3/12", "email"=>"Slytest@mailinator.com", "emergency_mobile_number"=>"2584851212", "country"=>"1", "city"=>"Edinburgh", "marital_status"=>"single", "first_name"=>"Slytest", "emergency_city"=>"Edinburgh", "emergency_address"=>"808 Edinburgh street", "emergency_relationship"=>"Father", "period"=>"DAY", "mobile_phone"=>"3034504565", "applying_for"=>"Master Barber", "ssn"=>"4587852221", "state"=>"5", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "admission_session"=>"2013 - October Admission"}]}
+
+NoMethodError (undefined method `stringify_keys!' for #<Array:0x9256698>):
+  app/controllers/student_applications_controller.rb:14:in `new'
+  app/controllers/student_applications_controller.rb:14:in `create'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (66.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-06-14 07:59:45) [POST]
+  Parameters: {"student_application"=>[{"last_name"=>"TestUser", "emergency_zipcode"=>"23508", "zipcode"=>"23508", "emergency_country"=>"1", "emergency_state"=>"5", "emergency_name"=>"John Test", "gender"=>"male", "student_type"=>"Full_Time_40hr", "dob"=>"1992/3/12", "email"=>"Slytest@mailinator.com", "emergency_mobile_number"=>"2584851212", "country"=>"1", "city"=>"Edinburgh", "marital_status"=>"single", "first_name"=>"Slytest", "emergency_city"=>"Edinburgh", "emergency_address"=>"808 Edinburgh street", "emergency_relationship"=>"Father", "period"=>"DAY", "mobile_phone"=>"3034504565", "applying_for"=>"Master Barber", "ssn"=>"4587852221", "state"=>"5", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "admission_session"=>"2013 - October Admission"}], "method"=>:post}
+
+NoMethodError (undefined method `stringify_keys!' for #<Array:0x8ff34c0>):
+  app/controllers/student_applications_controller.rb:14:in `new'
+  app/controllers/student_applications_controller.rb:14:in `create'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (67.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-06-14 08:05:03) [POST]
+  Parameters: {"student_application"=>[{"last_name"=>"TestUser", "emergency_zipcode"=>"23508", "zipcode"=>"23508", "emergency_country"=>"1", "emergency_state"=>"5", "emergency_name"=>"John Test", "gender"=>"male", "student_type"=>"Full_Time_40hr", "dob"=>"1992/3/12", "email"=>"Slytest@mailinator.com", "emergency_mobile_number"=>"2584851212", "country"=>"1", "city"=>"Edinburgh", "marital_status"=>"single", "first_name"=>"Slytest", "emergency_city"=>"Edinburgh", "emergency_address"=>"808 Edinburgh street", "emergency_relationship"=>"Father", "period"=>"DAY", "mobile_phone"=>"3034504565", "applying_for"=>"Master Barber", "ssn"=>"4587852221", "state"=>"5", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "admission_session"=>"2013 - October Admission"}], "method"=>:post}
+
+NoMethodError (undefined method `stringify_keys!' for #<Array:0x8e710c0>):
+  app/controllers/student_applications_controller.rb:14:in `new'
+  app/controllers/student_applications_controller.rb:14:in `create'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (154.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-06-14 08:05:52) [POST]
+  Parameters: {"student_application"=>[{"last_name"=>"TestUser", "emergency_zipcode"=>"23508", "zipcode"=>"23508", "emergency_country"=>"1", "emergency_state"=>"5", "emergency_name"=>"John Test", "gender"=>"male", "student_type"=>"Full_Time_40hr", "dob"=>"1992/3/12", "email"=>"Slytest@mailinator.com", "emergency_mobile_number"=>"2584851212", "country"=>"1", "city"=>"Edinburgh", "marital_status"=>"single", "first_name"=>"Slytest", "emergency_city"=>"Edinburgh", "emergency_address"=>"808 Edinburgh street", "emergency_relationship"=>"Father", "period"=>"DAY", "mobile_phone"=>"3034504565", "applying_for"=>"Master Barber", "ssn"=>"4587852221", "state"=>"5", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "admission_session"=>"2013 - October Admission"}], "method"=>:post}
+WARNING: Can't mass-assign these protected attributes: student_application
+Completed in 25ms (View: 2, DB: 0) | 422 Unprocessable Entity [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-06-14 08:07:34) [POST]
+  Parameters: {"student_application"=>[{"last_name"=>"TestUser", "emergency_zipcode"=>"23508", "zipcode"=>"23508", "emergency_country"=>"1", "emergency_state"=>"5", "emergency_name"=>"John Test", "gender"=>"male", "student_type"=>"Full_Time_40hr", "dob"=>"1992/3/12", "email"=>"Slytest@mailinator.com", "emergency_mobile_number"=>"2584851212", "country"=>"1", "city"=>"Edinburgh", "marital_status"=>"single", "first_name"=>"Slytest", "emergency_city"=>"Edinburgh", "emergency_address"=>"808 Edinburgh street", "emergency_relationship"=>"Father", "period"=>"DAY", "mobile_phone"=>"3034504565", "applying_for"=>"Master Barber", "ssn"=>"4587852221", "state"=>"5", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "admission_session"=>"2013 - October Admission"}], "method"=>:post}
+WARNING: Can't mass-assign these protected attributes: student_application
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-06-14 08:12:57) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"state"=>"5", "city"=>"Edinburgh", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "emergency_country"=>"1", "applying_for"=>"Master Barber", "last_name"=>"TestUser", "admission_session"=>"2013 - October Admission", "emergency_city"=>"Edinburgh", "emergency_zipcode"=>"23508", "emergency_address"=>"808 Edinburgh street", "marital_status"=>"single", "zipcode"=>"23508", "email"=>"Slytest@mailinator.com", "emergency_mobile_number"=>"2584851212", "student_type"=>"Full_Time_40hr", "mobile_phone"=>"3034504565", "gender"=>"male", "period"=>"DAY", "dob"=>"1992/3/12", "emergency_name"=>"John Test", "first_name"=>"Slytest", "emergency_state"=>"5", "emergency_relationship"=>"Father", "country"=>"1", "ssn"=>"4587852221"}}
+WARNING: Can't mass-assign these protected attributes: student_application
+Completed in 7760ms (View: 2, DB: 0) | 422 Unprocessable Entity [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-06-14 08:13:43) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"state"=>"5", "city"=>"Edinburgh", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "emergency_country"=>"1", "applying_for"=>"Master Barber", "last_name"=>"TestUser", "admission_session"=>"2013 - October Admission", "emergency_city"=>"Edinburgh", "emergency_zipcode"=>"23508", "emergency_address"=>"808 Edinburgh street", "marital_status"=>"single", "zipcode"=>"23508", "email"=>"Slytest@mailinator.com", "emergency_mobile_number"=>"2584851212", "student_type"=>"Full_Time_40hr", "mobile_phone"=>"3034504565", "gender"=>"male", "period"=>"DAY", "dob"=>"1992/3/12", "emergency_name"=>"John Test", "first_name"=>"Slytest", "emergency_state"=>"5", "emergency_relationship"=>"Father", "country"=>"1", "ssn"=>"4587852221"}}
+  [4;36;1mSQL (366.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudentApplication Create (112.0ms)[0m   [0mINSERT INTO `student_applications` (`address`, `city`, `state`, `education`, `medication`, `summary`, `referrer`, `last_name`, `admission_session`, `applying_for`, `employer_zipcode`, `emergency_country`, `employer_number`, `employer_state`, `emergency_city`, `marital_status`, `other_phone`, `emergency_address`, `emergency_zipcode`, `submitted_on`, `accepted`, `application_code`, `email`, `zipcode`, `employer_city`, `physical_disability`, `remarks`, `gender`, `mobile_phone`, `student_type`, `emergency_mobile_number`, `dob`, `period`, `committment`, `emergency_home_number`, `first_name`, `home_phone`, `dl_issue`, `emergency_name`, `emergency_state`, `signed`, `country`, `employer_address`, `emergency_relationship`, `paid`, `amount`, `ssn`, `dl_number`, `employer_name`, `employer_country`) VALUES('808 Edinburgh street', 'Edinburgh', '5', 'A High School Graduate', NULL, NULL, NULL, 'TestUser', '2013 - October Admission', 'Master Barber', NULL, '1', NULL, NULL, 'Edinburgh', 'single', NULL, '808 Edinburgh street', '23508', NULL, 'PENDING', 'SMB201361481343ST', 'Slytest@mailinator.com', '23508', NULL, NULL, NULL, 'male', '3034504565', 'Full_Time_40hr', '2584851212', '1992-03-12', 'DAY', NULL, NULL, 'Slytest', NULL, NULL, 'John Test', '5', NULL, '1', NULL, 'Father', 'NO', NULL, '4587852221', NULL, NULL, NULL)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+
+NoMethodError (undefined method `student_application_url' for #<StudentApplicationsController:0x8f12448>):
+  app/controllers/student_applications_controller.rb:26:in `create'
+  app/controllers/student_applications_controller.rb:24:in `create'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (84.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentApplicationsController#update (for 127.0.0.1 at 2013-06-14 08:22:42) [POST]
+  Parameters: {"student_application"=>{"state"=>"5", "city"=>"Edinburgh", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "emergency_country"=>"1", "applying_for"=>"Master Barber", "last_name"=>"TestUser", "admission_session"=>"2013 - October Admission", "emergency_city"=>"Edinburgh", "emergency_zipcode"=>"23508", "emergency_address"=>"808 Edinburgh street", "marital_status"=>"single", "zipcode"=>"23508", "email"=>"Slytestupdate@mailinator.com", "emergency_mobile_number"=>"2584851212", "student_type"=>"Full_Time_40hr", "mobile_phone"=>"3034504565", "gender"=>"male", "period"=>"DAY", "dob"=>"1992/3/12", "emergency_name"=>"John Test", "first_name"=>"Slytest", "emergency_state"=>"5", "emergency_relationship"=>"Father", "country"=>"1", "ssn"=>"4587852221"}}
+
+ActiveRecord::RecordNotFound (Couldn't find StudentApplication without an ID):
+  app/controllers/student_applications_controller.rb:35:in `update'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StudentApplicationsController#update (for 127.0.0.1 at 2013-06-14 08:23:37) [POST]
+  Parameters: {"id"=>"20", "student_application"=>{"state"=>"5", "city"=>"Edinburgh", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "emergency_country"=>"1", "applying_for"=>"Master Barber", "last_name"=>"TestUser", "admission_session"=>"2013 - October Admission", "emergency_city"=>"Edinburgh", "emergency_zipcode"=>"23508", "emergency_address"=>"808 Edinburgh street", "marital_status"=>"single", "zipcode"=>"23508", "email"=>"Slytestupdate@mailinator.com", "emergency_mobile_number"=>"2584851212", "student_type"=>"Full_Time_40hr", "mobile_phone"=>"3034504565", "gender"=>"male", "period"=>"DAY", "dob"=>"1992/3/12", "emergency_name"=>"John Test", "first_name"=>"Slytest", "emergency_state"=>"5", "emergency_relationship"=>"Father", "country"=>"1", "ssn"=>"4587852221"}}
+  [4;35;1mStudentApplication Load (2.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (`student_applications`.`id` = 20) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudentApplication Update (418.0ms)[0m   [0mUPDATE `student_applications` SET `email` = 'Slytestupdate@mailinator.com' WHERE `id` = 20[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Completed in 472ms (View: 12, DB: 422) | 200 OK [http://localhost/updateStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-06-14 08:25:54) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"state"=>"5", "city"=>"Edinburgh", "address"=>"808 Edinburgh street", "education"=>"A High School Graduate", "emergency_country"=>"1", "applying_for"=>"Master Barber", "last_name"=>"TestUser2", "admission_session"=>"2014 - January Admission", "emergency_city"=>"Edinburgh", "emergency_zipcode"=>"23508", "emergency_address"=>"808 Edinburgh street", "marital_status"=>"single", "zipcode"=>"23508", "email"=>"Bentest2@mailinator.com", "emergency_mobile_number"=>"2584851212", "student_type"=>"Full_Time_40hr", "mobile_phone"=>"3034504565", "gender"=>"male", "period"=>"DAY", "dob"=>"1992/3/12", "emergency_name"=>"John Test", "first_name"=>"Bentest2", "emergency_state"=>"5", "emergency_relationship"=>"Father", "country"=>"1", "ssn"=>"4587852221"}}
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudentApplication Create (2.0ms)[0m   [0;1mINSERT INTO `student_applications` (`address`, `city`, `state`, `education`, `medication`, `summary`, `referrer`, `last_name`, `admission_session`, `applying_for`, `employer_zipcode`, `emergency_country`, `employer_number`, `employer_state`, `emergency_city`, `marital_status`, `other_phone`, `emergency_address`, `emergency_zipcode`, `submitted_on`, `accepted`, `application_code`, `email`, `zipcode`, `employer_city`, `physical_disability`, `remarks`, `gender`, `mobile_phone`, `student_type`, `emergency_mobile_number`, `dob`, `period`, `committment`, `emergency_home_number`, `first_name`, `home_phone`, `dl_issue`, `emergency_name`, `emergency_state`, `signed`, `country`, `employer_address`, `emergency_relationship`, `paid`, `amount`, `ssn`, `dl_number`, `employer_name`, `employer_country`) VALUES('808 Edinburgh street', 'Edinburgh', '5', 'A High School Graduate', NULL, NULL, NULL, 'TestUser2', '2014 - January Admission', 'Master Barber', NULL, '1', NULL, NULL, 'Edinburgh', 'single', NULL, '808 Edinburgh street', '23508', NULL, 'PENDING', 'SMB201361482554BT', 'Bentest2@mailinator.com', '23508', NULL, NULL, NULL, 'male', '3034504565', 'Full_Time_40hr', '2584851212', '1992-03-12', 'DAY', NULL, NULL, 'Bentest2', NULL, NULL, 'John Test', '5', NULL, '1', NULL, 'Father', 'NO', NULL, '4587852221', NULL, NULL, NULL)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Completed in 47ms (View: 5, DB: 4) | 201 Created [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-11 04:14:39) [GET]
+Completed in 39ms (View: 2, DB: 0) | 200 OK [http://localhost/getStudentApplication]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-11 04:18:38) [GET]
+  [4;36;1mStudentApplication Load (2.0ms)[0m   [0;1mSELECT * FROM `student_applications` [0m
+Completed in 563ms (View: 546, DB: 2) | 200 OK [http://localhost/getStudentApplication]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-11 04:20:29) [GET]
+  [4;35;1mStudentApplication Load (2.0ms)[0m   [0mSELECT * FROM `student_applications` [0m
+Completed in 127ms (View: 108, DB: 2) | 200 OK [http://localhost/getStudentApplication]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-11 04:20:36) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (428.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 469ms (View: 25, DB: 428) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+Error occurred while parsing request parameters.
+Contents:
+
+{
+"admission_session":"2014 - April Admission",
+"first_name":"Shade",
+"last_name":"George",
+"ssn":"43559",
+"marital_status":"single",
+"dob":"1992/09/18",
+"gender":"Female",
+"address":"1245 Fairfax Avenue",
+"city":"Aurora",
+"state":"Colorado",
+"zip_code":"80016",
+"country":"United States",
+"email":"gor@mailinator.com",
+"education":"A High School Graduate",
+"applying_for":"Master Barber",
+"student_type":"Full_Time_40hr",
+"period":"DAY",
+"mobile_phone":"7567987",
+"emergency_name":"Janet",
+"emergency_mobile_number":"7567987"
+"emergency_relationship":"Sister",
+"emergency_address":"1679 academy street",
+"emergency_city":"Norfolk",
+"emergency_state":"Virginia",
+"emergency_zipcode":"23508",
+"emergency_country":"United States"
+}
+/!\ FAILSAFE /!\  Thu Jul 11 04:42:07 -0400 2013
+  Status: 500 Internal Server Error
+  Invalid JSON string
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/json/backends/yaml.rb:14:in `decode'
+    c:1:in `__send__'
+    c:1:in `decode'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:42:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{"student_application":{
+"admission_session":"2014 - April Admission",
+"first_name":"Shade",
+"last_name":"George",
+"ssn":"43559",
+"marital_status":"single",
+"dob":"1992/09/18",
+"gender":"Female",
+"address":"1245 Fairfax Avenue",
+"city":"Aurora",
+"state":"Colorado",
+"zip_code":"80016",
+"country":"United States",
+"email":"gor@mailinator.com",
+"education":"A High School Graduate",
+"applying_for":"Master Barber",
+"student_type":"Full_Time_40hr",
+"period":"DAY",
+"mobile_phone":"7567987",
+"emergency_name":"Janet",
+"emergency_mobile_number":"7567987"
+"emergency_relationship":"Sister",
+"emergency_address":"1679 academy street",
+"emergency_city":"Norfolk",
+"emergency_state":"Virginia",
+"emergency_zipcode":"23508",
+"emergency_country":"United States"
+}}
+/!\ FAILSAFE /!\  Thu Jul 11 04:44:50 -0400 2013
+  Status: 500 Internal Server Error
+  Invalid JSON string
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/json/backends/yaml.rb:14:in `decode'
+    c:1:in `__send__'
+    c:1:in `decode'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:42:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-11 04:48:24) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"emergency_relationship"=>"Sister", "mobile_phone"=>"7567987", "student_type"=>"Full_Time_40hr", "address"=>"1245 Fairfax Avenue", "emergency_address"=>"1679 academy street", "emergency_mobile_number"=>"7567987", "applying_for"=>"Master Barber", "country"=>"United States", "first_name"=>"Shade", "zip_code"=>"80016", "last_name"=>"George", "emergency_state"=>"Virginia", "email"=>"gor@mailinator.com", "emergency_zipcode"=>"23508", "emergency_city"=>"Norfolk", "state"=>"Colorado", "emergency_name"=>"Janet", "ssn"=>"43559", "gender"=>"Female", "period"=>"DAY", "emergency_country"=>"United States", "education"=>"A High School Graduate", "dob"=>"1992/09/18", "marital_status"=>"single", "city"=>"Aurora", "admission_session"=>"2014 - April Admission"}}
+WARNING: Can't mass-assign these protected attributes: zip_code
+Completed in 7936ms (View: 3, DB: 0) | 422 Unprocessable Entity [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-11 04:52:23) [POST]
+  Parameters: {"emergency_relationship"=>"Sister", "mobile_phone"=>"7567987", "student_type"=>"Full_Time_40hr", "address"=>"1245 Fairfax Avenue", "emergency_address"=>"1679 academy street", "emergency_mobile_number"=>"7567987", "applying_for"=>"Master Barber", "country"=>"United States", "first_name"=>"Shade", "zip_code"=>"80016", "last_name"=>"George", "emergency_state"=>"Virginia", "email"=>"gor@mailinator.com", "emergency_zipcode"=>"23508", "emergency_city"=>"Norfolk", "state"=>"Colorado", "emergency_name"=>"Janet", "ssn"=>"43559", "method"=>:post, "gender"=>"Female", "period"=>"DAY", "emergency_country"=>"United States", "education"=>"A High School Graduate", "dob"=>"1992/09/18", "marital_status"=>"single", "city"=>"Aurora", "admission_session"=>"2014 - April Admission"}
+Completed in 24ms (View: 2, DB: 0) | 422 Unprocessable Entity [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-11 04:52:57) [POST]
+  Parameters: {"emergency_relationship"=>"Sister", "mobile_phone"=>"7567987", "student_type"=>"Full_Time_40hr", "address"=>"1245 Fairfax Avenue", "emergency_address"=>"1679 academy street", "emergency_mobile_number"=>"7567987", "applying_for"=>"Master Barber", "country"=>"United States", "first_name"=>"Shade", "zip_code"=>"80016", "last_name"=>"George", "emergency_state"=>"Virginia", "email"=>"gor@mailinator.com", "emergency_zipcode"=>"23508", "emergency_city"=>"Norfolk", "state"=>"Colorado", "emergency_name"=>"Janet", "ssn"=>43559, "method"=>:post, "gender"=>"Female", "period"=>"DAY", "emergency_country"=>"United States", "education"=>"A High School Graduate", "dob"=>"1992/09/18", "marital_status"=>"single", "city"=>"Aurora", "admission_session"=>"2014 - April Admission"}
+Completed in 50ms (View: 2, DB: 0) | 422 Unprocessable Entity [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-11 04:58:18) [POST]
+  Parameters: {"emergency_relationship"=>"Sister", "mobile_phone"=>"7567987", "student_type"=>"Full_Time_40hr", "address"=>"1245 Fairfax Avenue", "emergency_address"=>"1679 academy street", "emergency_mobile_number"=>"7567987", "applying_for"=>"Master Barber", "country"=>"United States", "first_name"=>"Shade", "last_name"=>"George", "emergency_state"=>"Virginia", "email"=>"gor@mailinator.com", "emergency_zipcode"=>"23508", "emergency_city"=>"Norfolk", "state"=>"Colorado", "emergency_name"=>"Janet", "ssn"=>43559, "method"=>:post, "gender"=>"Female", "period"=>"DAY", "emergency_country"=>"United States", "education"=>"A High School Graduate", "dob"=>"1992/09/18", "marital_status"=>"single", "zipcode"=>"80016", "city"=>"Aurora", "admission_session"=>"2014 - April Admission"}
+Completed in 23ms (View: 2, DB: 0) | 422 Unprocessable Entity [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-11 05:00:56) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"emergency_relationship"=>"Sister", "mobile_phone"=>"7567987", "student_type"=>"Full_Time_40hr", "address"=>"1245 Fairfax Avenue", "emergency_address"=>"1679 academy street", "emergency_mobile_number"=>"7567987", "applying_for"=>"Master Barber", "country"=>"United States", "first_name"=>"Shade", "last_name"=>"George", "emergency_state"=>"Virginia", "email"=>"gor@mailinator.com", "emergency_zipcode"=>"23508", "emergency_city"=>"Norfolk", "state"=>"Colorado", "emergency_name"=>"Janet", "ssn"=>"43559", "gender"=>"Female", "period"=>"DAY", "emergency_country"=>"United States", "education"=>"A High School Graduate", "dob"=>"1992/09/18", "marital_status"=>"single", "zipcode"=>"80016", "city"=>"Aurora", "admission_session"=>"2014 - April Admission"}}
+  [4;35;1mSQL (71.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudentApplication Create (99.0ms)[0m   [0;1mINSERT INTO `student_applications` (`mobile_phone`, `address`, `dl_number`, `student_type`, `employer_number`, `emergency_home_number`, `emergency_relationship`, `first_name`, `country`, `applying_for`, `committment`, `emergency_mobile_number`, `emergency_address`, `last_name`, `medication`, `submitted_on`, `email`, `employer_address`, `physical_disability`, `emergency_state`, `amount`, `state`, `employer_state`, `employer_country`, `emergency_city`, `emergency_zipcode`, `application_code`, `ssn`, `home_phone`, `dl_issue`, `emergency_name`, `accepted`, `gender`, `period`, `employer_zipcode`, `referrer`, `remarks`, `marital_status`, `dob`, `education`, `emergency_country`, `other_phone`, `employer_name`, `employer_city`, `summary`, `paid`, `city`, `zipcode`, `admission_session`, `signed`) VALUES('7567987', '1245 Fairfax Avenue', NULL, 'Full_Time_40hr', NULL, NULL, 'Sister', 'Shade', 'United States', 'Master Barber', NULL, '7567987', '1679 academy street', 'George', NULL, NULL, 'gor@mailinator.com', NULL, NULL, 'Virginia', NULL, 'Colorado', NULL, NULL, 'Norfolk', '23508', 'SMB20137115056SG', '43559', NULL, NULL, 'Janet', 'PENDING', 'Female', 'DAY', NULL, NULL, NULL, 'single', '1992-09-18', 'A High School Graduate', 'United States', NULL, NULL, NULL, NULL, 'NO', 'Aurora', '80016', '2014 - April Admission', NULL)[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mCOMMIT[0m
+Completed in 218ms (View: 8, DB: 172) | 201 Created [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-11 05:15:31) [GET]
+  Parameters: {"applicationId"=>"20133432626"}
+  [4;36;1mStudentApplication Load (3.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = '20133432626') [0m
+Completed in 38ms (View: 23, DB: 3) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432626]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-11 05:15:53) [GET]
+  Parameters: {"applicationId"=>"20133432"}
+  [4;35;1mStudentApplication Load (5.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = '20133432') [0m
+Completed in 78ms (View: 2, DB: 5) | 200 OK [http://localhost/getStudentApplication?applicationId=20133432]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-11 05:16:53) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"emergency_relationship"=>"Sister", "mobile_phone"=>"7567987", "student_type"=>"Full_Time_40hr", "address"=>"1245 Fairfax Avenue", "emergency_address"=>"1679 academy street", "emergency_mobile_number"=>"7567987", "applying_for"=>"Master Barber", "country"=>"United States", "first_name"=>"Danille", "last_name"=>"Freedom", "emergency_state"=>"Virginia", "email"=>"gor@mailinator.com", "emergency_zipcode"=>"23508", "emergency_city"=>"Norfolk", "state"=>"Colorado", "emergency_name"=>"Janet", "ssn"=>"435509", "gender"=>"Female", "period"=>"DAY", "emergency_country"=>"United States", "education"=>"A High School Graduate", "dob"=>"1992/09/18", "marital_status"=>"single", "zipcode"=>"80016", "city"=>"Aurora", "admission_session"=>"2014 - April Admission"}}
+  [4;36;1mSQL (2.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudentApplication Create (2.0ms)[0m   [0mINSERT INTO `student_applications` (`mobile_phone`, `address`, `dl_number`, `student_type`, `employer_number`, `emergency_home_number`, `emergency_relationship`, `first_name`, `country`, `applying_for`, `committment`, `emergency_mobile_number`, `emergency_address`, `last_name`, `medication`, `submitted_on`, `email`, `employer_address`, `physical_disability`, `emergency_state`, `amount`, `state`, `employer_state`, `employer_country`, `emergency_city`, `emergency_zipcode`, `application_code`, `ssn`, `home_phone`, `dl_issue`, `emergency_name`, `accepted`, `gender`, `period`, `employer_zipcode`, `referrer`, `remarks`, `marital_status`, `dob`, `education`, `emergency_country`, `other_phone`, `employer_name`, `employer_city`, `summary`, `paid`, `city`, `zipcode`, `admission_session`, `signed`) VALUES('7567987', '1245 Fairfax Avenue', NULL, 'Full_Time_40hr', NULL, NULL, 'Sister', 'Danille', 'United States', 'Master Barber', NULL, '7567987', '1679 academy street', 'Freedom', NULL, NULL, 'gor@mailinator.com', NULL, NULL, 'Virginia', NULL, 'Colorado', NULL, NULL, 'Norfolk', '23508', 'SMB201371151653DF', '435509', NULL, NULL, 'Janet', 'PENDING', 'Female', 'DAY', NULL, NULL, NULL, 'single', '1992-09-18', 'A High School Graduate', 'United States', NULL, NULL, NULL, NULL, 'NO', 'Aurora', '80016', '2014 - April Admission', NULL)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCOMMIT[0m
+Completed in 49ms (View: 6, DB: 5) | 201 Created [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-11 22:36:23) [POST]
+  Parameters: {"state"=>"Colorado", "emergency_city"=>"Norfolk", "gender"=>"Female", "emergency_address"=>"1679 academy street", "mobile_phone"=>"7567987", "education"=>"A High School Graduate", "country"=>"United States", "method"=>:post, "applying_for"=>"Master Barber", "zipcode"=>"80016", "marital_status"=>"single", "emergency_mobile_number"=>"7567987", "period"=>"DAY", "student_type"=>"Full_Time_40hr", "emergency_country"=>"United States", "emergency_name"=>"Janet", "ssn"=>"435509", "first_name"=>"Betty", "admission_session"=>"2014 - April Admission", "emergency_state"=>"Virginia", "dob"=>"1992/09/18", "last_name"=>"Greifen", "emergency_zipcode"=>"23508", "city"=>"Aurora", "emergency_relationship"=>"Sister", "email"=>"betty@mailinator.com", "address"=>"1245 Fairfax Avenue"}
+Completed in 7938ms (View: 4, DB: 0) | 422 Unprocessable Entity [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-11 22:44:31) [GET]
+  [4;36;1mStudentApplication Load (3.0ms)[0m   [0;1mSELECT * FROM `student_applications` [0m
+Completed in 215ms (View: 198, DB: 3) | 200 OK [http://localhost/getStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-11 22:45:48) [POST]
+  Parameters: {"method"=>:post, "emergency_address"=>"1679 academy street", "last_name"=>"Greifen", "ssn"=>"435509", "emergency_city"=>"Norfolk", "student_type"=>"Full_Time_40hr", "zipcode"=>"80016", "country"=>"United States", "address"=>"1245 Fairfax Avenue", "dob"=>"1992/09/18", "emergency_zipcode"=>"23508", "emergency_state"=>"Virginia", "state"=>"Colorado", "city"=>"Aurora", "first_name"=>"Betty", "email"=>"betty@mailinator.com", "admission_session"=>"2014 - April Admission", "emergency_name"=>"Janet", "education"=>"A High School Graduate", "emergency_relationship"=>"Sister", "emergency_country"=>"United States", "emergency_mobile_number"=>"7567987", "mobile_phone"=>"7567987", "applying_for"=>"Master Barber", "marital_status"=>"single", "period"=>"DAY", "gender"=>"Female"}
+Completed in 7163ms (View: 2, DB: 0) | 422 Unprocessable Entity [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-11 22:46:59) [POST]
+  Parameters: {"method"=>:post, "emergency_address"=>"1679 academy street", "last_name"=>"Greifen", "ssn"=>"435509", "emergency_city"=>"Norfolk", "student_type"=>"Full_Time_40hr", "zipcode"=>"80016", "country"=>"United States", "address"=>"1245 Fairfax Avenue", "dob"=>"1992/09/18", "emergency_zipcode"=>"23508", "emergency_state"=>"Virginia", "state"=>"Colorado", "city"=>"Aurora", "first_name"=>"Betty", "email"=>"betty@mailinator.com", "admission_session"=>"2014 - April Admission", "emergency_name"=>"Janet", "education"=>"A High School Graduate", "emergency_relationship"=>"Sister", "emergency_country"=>"United States", "emergency_mobile_number"=>"7567987", "mobile_phone"=>"7567987", "applying_for"=>"Master Barber", "marital_status"=>"single", "period"=>"DAY", "gender"=>"Female"}
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-18 22:53:42) [GET]
+  [4;36;1mStudentApplication Load (84.0ms)[0m   [0;1mSELECT * FROM `student_applications` [0m
+Completed in 334ms (View: 182, DB: 84) | 200 OK [http://localhost/getStudentApplication]
+Error occurred while parsing request parameters.
+Contents:
+
+{
+"student_application":{
+"admission_session":"2014 - April Admission",
+"first_name":"Craig",
+"last_name":"Gudin",
+"ssn":"43559",
+"marital_status":"single",
+"dob":"1992/09/18",
+"gender":"Female",
+"address":"1245 Fairfax Avenue",
+"city":"Aurora",
+"state":"Colorado",
+"zipcode":"80016",
+"country":"United States",
+"email":"ag-silver@live.com",
+"education":"A High School Graduate",
+"applying_for":"Master Barber",
+"student_type":"Full_Time_40hr",
+"period":"DAY",
+"mobile_phone":"7567987",
+"emergency_name":"Janet",
+"emergency_mobile_number":"7567987",
+"emergency_relationship":"Sister",
+"emergency_address":"1679 academy street",
+"emergency_city":"Norfolk",
+"emergency_state":"Virginia",
+"emergency_zipcode":"23508",
+"emergency_country":"United States"
+}
+}
+/!\ FAILSAFE /!\  Mon Jul 22 22:12:33 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-22 22:12:55) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"emergency_address"=>"1679 academy street", "country"=>"United States", "admission_session"=>"2014 - April Admission", "education"=>"A High School Graduate", "emergency_name"=>"Janet", "first_name"=>"Craig", "emergency_zipcode"=>"23508", "emergency_state"=>"Virginia", "applying_for"=>"Master Barber", "state"=>"Colorado", "dob"=>"1992/09/18", "student_type"=>"Full_Time_40hr", "address"=>"1245 Fairfax Avenue", "emergency_mobile_number"=>"7567987", "zipcode"=>"80016", "marital_status"=>"single", "last_name"=>"Gudin", "emergency_country"=>"United States", "emergency_city"=>"Norfolk", "emergency_relationship"=>"Sister", "mobile_phone"=>"7567987", "period"=>"DAY", "email"=>"ag-silver@live.com", "gender"=>"Female", "ssn"=>"43559", "city"=>"Aurora"}}
+  [4;36;1mSQL (16.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudentApplication Create (102.0ms)[0m   [0mINSERT INTO `student_applications` (`country`, `admission_session`, `medication`, `emergency_address`, `employer_city`, `submitted_on`, `education`, `dl_number`, `dl_issue`, `amount`, `accepted`, `first_name`, `employer_state`, `employer_country`, `emergency_name`, `summary`, `dob`, `state`, `applying_for`, `emergency_state`, `emergency_zipcode`, `paid`, `signed`, `address`, `student_type`, `employer_name`, `emergency_home_number`, `referrer`, `last_name`, `marital_status`, `zipcode`, `emergency_mobile_number`, `application_code`, `email`, `gender`, `home_phone`, `mobile_phone`, `period`, `committment`, `physical_disability`, `emergency_relationship`, `emergency_city`, `emergency_country`, `ssn`, `employer_address`, `remarks`, `other_phone`, `city`, `employer_number`, `employer_zipcode`) VALUES('United States', '2014 - April Admission', NULL, '1679 academy street', NULL, '2013-07-22 04:00:00', 'A High School Graduate', NULL, NULL, NULL, 'PENDING', 'Craig', NULL, NULL, 'Janet', NULL, '1992-09-18', 'Colorado', 'Master Barber', 'Virginia', '23508', 'NO', NULL, '1245 Fairfax Avenue', 'Full_Time_40hr', NULL, NULL, NULL, 'Gudin', 'single', '80016', '7567987', 'SMB201372222134CG', 'ag-silver@live.com', 'Female', NULL, '7567987', 'DAY', NULL, NULL, 'Sister', 'Norfolk', 'United States', '43559', NULL, NULL, NULL, 'Aurora', NULL, NULL)[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mCOMMIT[0m
+
+ActionView::TemplateError (undefined local variable or method `student_applications_path' for #<ActionView::Base:0x92d3fd8>) on line #17 of app/views/barber_mailer/confirmation_email_for_student.html.erb:
+14:     </p>	
+15:     <p>Please be aware that if you have not paid the application fee your application will not be processed. 
+16:     	To make payment go to .....<br />
+17:     	To check the status of your application at any time go to http://bubaonline.com/B-Unique<%=student_applications_path%><br/>
+18:     
+19:     	
+20:     </p>
+
+    app/views/barber_mailer/confirmation_email_for_student.html.erb:17
+    app/controllers/application_controller.rb:31:in `sendEmail'
+    app/controllers/student_applications_controller.rb:37:in `create'
+    app/controllers/student_applications_controller.rb:35:in `create'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (67.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StudentApplicationsController#create (for 127.0.0.1 at 2013-07-22 22:17:38) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"emergency_address"=>"1679 academy street", "country"=>"United States", "admission_session"=>"2014 - April Admission", "education"=>"A High School Graduate", "emergency_name"=>"Janet", "first_name"=>"Cain", "emergency_zipcode"=>"23508", "emergency_state"=>"Virginia", "applying_for"=>"Master Barber", "state"=>"Colorado", "dob"=>"1992/09/18", "student_type"=>"Full_Time_40hr", "address"=>"1245 Fairfax Avenue", "emergency_mobile_number"=>"7567987", "zipcode"=>"80016", "marital_status"=>"single", "last_name"=>"Gudin", "emergency_country"=>"United States", "emergency_city"=>"Norfolk", "emergency_relationship"=>"Sister", "mobile_phone"=>"7567987", "period"=>"DAY", "email"=>"ag-silver@live.com", "gender"=>"Female", "ssn"=>"43559", "city"=>"Aurora"}}
+  [4;35;1mSQL (2.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudentApplication Create (2.0ms)[0m   [0;1mINSERT INTO `student_applications` (`country`, `admission_session`, `medication`, `emergency_address`, `employer_city`, `submitted_on`, `education`, `dl_number`, `dl_issue`, `amount`, `accepted`, `first_name`, `employer_state`, `employer_country`, `emergency_name`, `summary`, `dob`, `state`, `applying_for`, `emergency_state`, `emergency_zipcode`, `paid`, `signed`, `address`, `student_type`, `employer_name`, `emergency_home_number`, `referrer`, `last_name`, `marital_status`, `zipcode`, `emergency_mobile_number`, `application_code`, `email`, `gender`, `home_phone`, `mobile_phone`, `period`, `committment`, `physical_disability`, `emergency_relationship`, `emergency_city`, `emergency_country`, `ssn`, `employer_address`, `remarks`, `other_phone`, `city`, `employer_number`, `employer_zipcode`) VALUES('United States', '2014 - April Admission', NULL, '1679 academy street', NULL, '2013-07-22 04:00:00', 'A High School Graduate', NULL, NULL, NULL, 'PENDING', 'Cain', NULL, NULL, 'Janet', NULL, '1992-09-18', 'Colorado', 'Master Barber', 'Virginia', '23508', 'NO', NULL, '1245 Fairfax Avenue', 'Full_Time_40hr', NULL, NULL, NULL, 'Gudin', 'single', '80016', '7567987', 'SMB2013722221738CG', 'ag-silver@live.com', 'Female', NULL, '7567987', 'DAY', NULL, NULL, 'Sister', 'Norfolk', 'United States', '43559', NULL, NULL, NULL, 'Aurora', NULL, NULL)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Sent mail to ag-silver@live.com
+
+Date: Mon, 22 Jul 2013 22:17:38 -0400
+From: buba_admissions@bubaonline.com
+To: ag-silver@live.com
+Subject: Thank you. Application Received
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h2></h2>
+    <br/>
+    <p>Cain Gudin thank for your interest in B-Unique Barber Academy. 
+    	Your application has been received. </p>
+    
+    <p>Your <b>Application ID: SMB2013722221738CG</b><br />
+    	Plese take note of your application ID because you will use it to check the status of your application.
+    </p>	
+    <p>Please be aware that if you have not paid the application fee your application will not be processed. 
+    	To make payment go to .....<br />
+    	To check the status of your application at any time go to http://bubaonline.com/application<br/>
+    
+    	
+    </p>
+  </body>
+</html>
+Sent mail to buba_admissions@bubaonline.com
+
+Date: Mon, 22 Jul 2013 22:18:10 -0400
+From: ag-silver@live.com
+To: buba_admissions@bubaonline.com
+Subject: New Student Application
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h2></h2>
+    <br/>
+    <p>A new candidate has submitted an application. <br /><br />
+    	
+    	<b>Application ID:</b> SMB2013722221738CG<br />
+    	<b>First Name:</b> Cain<br />
+    	<b>Last Name:</b> Gudin<br />
+    	<b>Email Address:</b> ag-silver@live.com<br />
+    </p>
+    
+    <p>Log In to the Admin page to manage this application at any time.    	
+    </p>
+  </body>
+</html>
+Completed in 36433ms (View: 5, DB: 5) | 201 Created [http://localhost/createStudentApplication]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 05:30:14) [GET]
+  [4;36;1mStudentApplication Load (1063.1ms)[0m   [0;1mSELECT * FROM `student_applications` [0m
+Completed in 3082ms (View: 1161, DB: 1063) | 200 OK [http://localhost/getStudentApplication]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 05:35:30) [GET]
+  Parameters: {"checkAppStatus"=>"true", "first_name"=>"Bentest2", "app_code"=>"SMB201361482554BT", "last_name"=>"TestUser2"}
+  [4;35;1mStudentApplication Load (173.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = 'SMB201361482554BT' AND first_name='Bentest2' AND last_name='TestUser2') LIMIT 1[0m
+Completed in 426ms (View: 47, DB: 173) | 200 OK [http://localhost/getStudentApplication?checkAppStatus=true&app_code=SMB201361482554BT&first_name=Bentest2&last_name=TestUser2]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 05:36:19) [GET]
+  Parameters: {"checkAppStatus"=>"true", "first_name"=>"Bentest2", "app_code"=>"SMB201361482554BT"}
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/getStudentApplication?checkAppStatus=true&app_code=SMB201361482554BT&first_name=Bentest2]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 05:54:05) [GET]
+  Parameters: {"first_name"=>"Bentest2", "app_code"=>"SMB201361482554BT", "last_name"=>"TestUser2", "mode"=>"status"}
+  [4;36;1mStudentApplication Load (46.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (application_code = 'SMB201361482554BT' AND first_name='Bentest2' AND last_name='TestUser2') LIMIT 1[0m
+Completed in 177ms (View: 3, DB: 46) | 200 OK [http://localhost/getStudentApplication?mode=status&app_code=SMB201361482554BT&first_name=Bentest2&last_name=TestUser2]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 06:53:19) [GET]
+  Parameters: {"first_name"=>"Bentest2", "app_code"=>"SMB201361482554BT", "last_name"=>"TestUser2", "mode"=>"status"}
+  [4;35;1mStudentApplication Load (3.0ms)[0m   [0mSELECT * FROM `student_applications` WHERE (application_code = 'SMB201361482554BT' AND first_name='Bentest2' AND last_name='TestUser2') LIMIT 1[0m
+Completed in 372ms (View: 20, DB: 3) | 200 OK [http://localhost/getStudentApplication?mode=status&app_code=SMB201361482554BT&first_name=Bentest2&last_name=TestUser2]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 08:20:55) [GET]
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/getStudentApplication]
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 08:21:32) [GET]
+
+
+Processing EmployeeApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 22:33:10) [GET]
+  Parameters: {"mode"=>"byId", "first_name"=>"Bentest2", "app_code"=>"EI201332414547DB", "last_name"=>"TestUser2"}
+  [4;36;1mEmployeeApplication Load (1286.1ms)[0m   [0;1mSELECT * FROM `employee_applications` WHERE (application_code = 'EI201332414547DB') [0m
+
+
+Processing EmployeeApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 22:35:04) [GET]
+  Parameters: {"mode"=>"byId", "first_name"=>"Bentest2", "app_code"=>"EI201332414547DB", "last_name"=>"TestUser2"}
+  [4;36;1mEmployeeApplication Load (2.0ms)[0m   [0;1mSELECT * FROM `employee_applications` WHERE (application_code = 'EI201332414547DB') [0m
+Completed in 21ms (View: 2, DB: 2) | 200 OK [http://localhost/getEmployeeApplication?mode=byId&app_code=EI201332414547DB&first_name=Bentest2&last_name=TestUser2]
+
+
+Processing EmployeeApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 22:36:02) [GET]
+  Parameters: {"mode"=>"all", "first_name"=>"Bentest2", "app_code"=>"EI201332414547DB", "last_name"=>"TestUser2"}
+  [4;35;1mEmployeeApplication Load (37.0ms)[0m   [0mSELECT * FROM `employee_applications` [0m
+Completed in 380ms (View: 326, DB: 37) | 200 OK [http://localhost/getEmployeeApplication?mode=all&app_code=EI201332414547DB&first_name=Bentest2&last_name=TestUser2]
+
+
+Processing EmployeeApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 22:37:48) [GET]
+  Parameters: {"mode"=>"byId", "first_name"=>"Justin", "app_code"=>"EA2013324154450JT", "last_name"=>"Timberlake"}
+  [4;36;1mEmployeeApplication Load (2.0ms)[0m   [0;1mSELECT * FROM `employee_applications` WHERE (application_code = 'EA2013324154450JT') [0m
+Completed in 223ms (View: 197, DB: 2) | 200 OK [http://localhost/getEmployeeApplication?mode=byId&app_code=EA2013324154450JT&first_name=Justin&last_name=Timberlake]
+
+
+Processing EmployeeApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 22:38:09) [GET]
+  Parameters: {"mode"=>"status", "first_name"=>"Justin", "app_code"=>"EA2013324154450JT", "last_name"=>"Timberlake"}
+  [4;35;1mEmployeeApplication Load (122.0ms)[0m   [0mSELECT * FROM `employee_applications` WHERE (application_code = 'EA2013324154450JT' AND first_name='Justin' AND last_name='Timberlake') LIMIT 1[0m
+
+NoMethodError (undefined method `admission_session' for #<EmployeeApplication:0x93bc880>):
+  app/models/employee_application.rb:30:in `getAppStatus'
+  app/controllers/employee_applications_controller.rb:10:in `retrieve'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EmployeeApplicationsController#retrieve (for 127.0.0.1 at 2013-07-26 22:40:19) [GET]
+  Parameters: {"mode"=>"status", "first_name"=>"Justin", "app_code"=>"EA2013324154450JT", "last_name"=>"Timberlake"}
+  [4;36;1mEmployeeApplication Load (3.0ms)[0m   [0;1mSELECT * FROM `employee_applications` WHERE (application_code = 'EA2013324154450JT' AND first_name='Justin' AND last_name='Timberlake') LIMIT 1[0m
+Completed in 66ms (View: 4, DB: 3) | 200 OK [http://localhost/getEmployeeApplication?mode=status&app_code=EA2013324154450JT&first_name=Justin&last_name=Timberlake]
+
+
+Processing EmployeeApplicationsController#create (for 127.0.0.1 at 2013-07-26 22:50:54) [POST]
+  Parameters: {"method"=>:post, "employee_application"=>{"emergency_state"=>"Virginia", "emergency_zipcode"=>"23508", "emergency_city"=>"Norfolk", "address"=>"1245 Fairfax Avenue", "marital_status"=>"single", "period"=>"DAY", "employment_type"=>"Full_Time_40hr", "email"=>"ag-silver@live.com", "first_name"=>"Xander", "emergency_relationship"=>"Sister", "emergency_mobile_number"=>"7567987", "city"=>"Aurora", "mobile_phone"=>"7567987", "state"=>"Colorado", "country"=>"United States", "gender"=>"Male", "emergency_name"=>"Janet", "zipcode"=>"80016", "ssn"=>"43559", "emergency_address"=>"1679 academy street", "applying_for"=>"Administrator", "last_name"=>"Fort", "emergency_country"=>"United States", "education"=>"A High School Graduate", "experience"=>"4-6months", "dob"=>"1992/09/18"}}
+WARNING: Can't mass-assign these protected attributes: employment_type
+Completed in 8560ms (View: 2, DB: 0) | 422 Unprocessable Entity [http://localhost/createEmployeeApplication]
+
+
+Processing EmployeeApplicationsController#create (for 127.0.0.1 at 2013-07-26 22:55:53) [POST]
+  Parameters: {"method"=>:post, "employee_application"=>{"emergency_state"=>"Virginia", "emergency_zipcode"=>"23508", "emergency_city"=>"Norfolk", "address"=>"1245 Fairfax Avenue", "marital_status"=>"single", "period"=>"DAY", "employment_type"=>"Full_Time_40hr", "email"=>"ag-silver@live.com", "first_name"=>"Xander", "emergency_relationship"=>"Sister", "emergency_mobile_number"=>"7567987", "city"=>"Aurora", "mobile_phone"=>"7567987", "state"=>"Colorado", "country"=>"United States", "gender"=>"Male", "emergency_name"=>"Janet", "zipcode"=>"80016", "ssn"=>"43559", "emergency_address"=>"1679 academy street", "applying_for"=>"Administrator", "last_name"=>"Fort", "emergency_country"=>"United States", "education"=>"A High School Graduate", "experience"=>"4-6months", "dob"=>"1992/09/18"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/models/employee_application.rb:10:in `generateAppID'
+  app/controllers/employee_applications_controller.rb:52:in `create'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (122.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EmployeeApplicationsController#create (for 127.0.0.1 at 2013-07-26 23:17:15) [POST]
+  Parameters: {"method"=>:post, "employee_application"=>{"emergency_state"=>"Virginia", "emergency_zipcode"=>"23508", "emergency_city"=>"Norfolk", "address"=>"1245 Fairfax Avenue", "marital_status"=>"single", "period"=>"DAY", "employment_type"=>"Full_Time_40hr", "email"=>"ag-silver@live.com", "first_name"=>"Xander", "emergency_relationship"=>"Sister", "emergency_mobile_number"=>"7567987", "city"=>"Aurora", "mobile_phone"=>"7567987", "state"=>"Colorado", "country"=>"United States", "gender"=>"Male", "emergency_name"=>"Janet", "zipcode"=>"80016", "ssn"=>"43559", "emergency_address"=>"1679 academy street", "applying_for"=>"Administrator", "last_name"=>"Fort", "emergency_country"=>"United States", "education"=>"A High School Graduate", "experience"=>"4-6months", "dob"=>"1992/09/18"}}
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mEmployeeApplication Create (281.0ms)[0m   [0;1mINSERT INTO `employee_applications` (`employer_state`, `emergency_state`, `signed`, `dl_issue`, `emergency_zipcode`, `marital_status`, `address`, `dl_number`, `emergency_city`, `medication`, `first_name`, `email`, `employment_type`, `period`, `employer_zipcode`, `remarks`, `city`, `emergency_mobile_number`, `emergency_relationship`, `submitted_on`, `mobile_phone`, `state`, `application_code`, `gender`, `other_phone`, `country`, `emergency_home_number`, `zipcode`, `ssn`, `employer_name`, `employer_address`, `employer_city`, `emergency_name`, `summary`, `accepted`, `last_name`, `applying_for`, `employer_number`, `employer_country`, `emergency_address`, `education`, `experience`, `emergency_country`, `dob`, `home_phone`, `physical_disability`, `referrer`) VALUES(NULL, 'Virginia', NULL, NULL, '23508', 'single', '1245 Fairfax Avenue', NULL, 'Norfolk', NULL, 'Xander', 'ag-silver@live.com', 'Full_Time_40hr', 'DAY', NULL, NULL, 'Aurora', '7567987', 'Sister', '2013-07-26', '7567987', 'Colorado', 'EA2013726231715XF', 'Male', NULL, 'United States', NULL, '80016', '43559', NULL, NULL, NULL, 'Janet', NULL, NULL, 'Fort', 'Administrator', NULL, NULL, '1679 academy street', 'A High School Graduate', '4-6months', 'United States', '1992-09-18', NULL, NULL, NULL)[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mCOMMIT[0m
+Sent mail to ag-silver@live.com
+
+Date: Fri, 26 Jul 2013 23:17:16 -0400
+From: buba_employment@bubaonline.com
+To: ag-silver@live.com
+Subject: Thank you. Application Received
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h2></h2>
+    <br/>
+    <p>Xander Fort thank for your interest in B-Unique Barber Academy. 
+    	Your application has been received. 
+    	<p>Your <b>Application ID: EA2013726231715XF</b><br />
+    	Plese take note of your application ID because you will use it to check the status of your application.
+    </p>	
+    	To check the status of your application at any time go to http://bubaonline.com/application<br/>
+    
+    	
+    </p>
+  </body>
+</html>
+Sent mail to buba_employment@bubaonline.com
+
+Date: Fri, 26 Jul 2013 23:17:28 -0400
+From: ag-silver@live.com
+To: buba_employment@bubaonline.com
+Subject: New Employee Application
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h2></h2>
+    <br/>
+    <p>A new candidate has submitted an application. <br /><br />
+    	
+    	<b>Application ID:</b> EA2013726231715XF<br />
+    	<b>First Name:</b> Xander<br />
+    	<b>Last Name:</b> Fort<br />
+    	<b>Email Address:</b> ag-silver@live.com<br />
+    </p>
+    
+    <p>Log In to the Admin page to manage this application at any time.    	
+    </p>
+  </body>
+</html>
+Completed in 15681ms (View: 13, DB: 284) | 201 Created [http://localhost/createEmployeeApplication]
+Error occurred while parsing request parameters.
+Contents:
+
+{
+"id":12,
+"student_application": {
+"remarks":"testing"
+
+}
+
+
+}
+/!\ FAILSAFE /!\  Sun Aug 04 11:57:46 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+"id":12,
+"student_application": {
+"remarks":"testing"
+
+}
+
+
+}
+/!\ FAILSAFE /!\  Sun Aug 04 11:58:41 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+"id":12,
+"student_application": {
+"remarks":"testing"
+
+}
+
+
+}
+/!\ FAILSAFE /!\  Sun Aug 04 11:59:03 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+Error occurred while parsing request parameters.
+Contents:
+
+{
+
+"student_application": {
+"remarks":"testing"
+
+}
+
+
+}
+/!\ FAILSAFE /!\  Sun Aug 04 11:59:54 -0400 2013
+  Status: 500 Internal Server Error
+  undefined method `name' for nil:NilClass
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/whiny_nil.rb:52:in `method_missing'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:29:in `merge_element!'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/xml_mini/rexml.rb:18:in `parse'
+    c:1:in `__send__'
+    c:1:in `parse'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.11/lib/active_support/core_ext/hash/conversions.rb:164:in `from_xml'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:34:in `parse_formatted_parameters'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/debugger.rb:19:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.1.6/lib/rack/handler/webrick.rb:14:in `run'
+    c:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.11/lib/commands/server.rb:111
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    c:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+
+
+Processing StudentApplicationsController#retrieve (for 127.0.0.1 at 2013-08-04 12:00:49) [GET]
+  Parameters: {"mode"=>"all"}
+  [4;36;1mStudentApplication Load (2.0ms)[0m   [0;1mSELECT * FROM `student_applications` [0m
+Completed in 231ms (View: 209, DB: 2) | 200 OK [http://localhost/getStudentApplication?mode=all]
+
+
+Processing StudentApplicationsController#update (for 127.0.0.1 at 2013-08-04 12:01:48) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"remarks"=>"testing"}}
+
+
+Processing StudentApplicationsController#update (for 127.0.0.1 at 2013-08-04 16:37:18) [POST]
+  Parameters: {"method"=>:post, "student_application"=>{"remarks"=>"testing", "id"=>12}}
+
+ActiveRecord::RecordNotFound (Couldn't find StudentApplication without an ID):
+  app/controllers/student_applications_controller.rb:93:in `update'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (126.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StudentApplicationsController#update (for 127.0.0.1 at 2013-08-04 16:38:04) [POST]
+  Parameters: {"method"=>:post, "id"=>12, "student_application"=>{"remarks"=>"testing", "id"=>12}}
+  [4;36;1mStudentApplication Load (105.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (`student_applications`.`id` = 12) [0m
+  [4;35;1mSQL (16.0ms)[0m   [0mBEGIN[0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mStudentApplication Update (48.0ms)[0m   [0;1mUPDATE `student_applications` SET `remarks` = 'testing' WHERE `id` = 12[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Completed in 268ms (View: 29, DB: 170) | 200 OK [http://localhost/updateStudentApplication]
+
+
+Processing StudentApplicationsController#update (for 127.0.0.1 at 2013-08-04 16:39:06) [POST]
+  Parameters: {"method"=>:post, "id"=>12, "student_application"=>{"remarks"=>"testingChange", "id"=>13}}
+  [4;36;1mStudentApplication Load (2.0ms)[0m   [0;1mSELECT * FROM `student_applications` WHERE (`student_applications`.`id` = 12) [0m
+  [4;35;1mSQL (2.0ms)[0m   [0mBEGIN[0m
+WARNING: Can't mass-assign these protected attributes: id
+  [4;36;1mStudentApplication Update (2.0ms)[0m   [0;1mUPDATE `student_applications` SET `remarks` = 'testingChange' WHERE `id` = 12[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mCOMMIT[0m
+Completed in 61ms (View: 10, DB: 8) | 200 OK [http://localhost/updateStudentApplication]
